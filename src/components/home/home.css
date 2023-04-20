@@ -1,0 +1,89 @@
+.home-img{
+ background-image: url();
+}
+
+.home{
+    flex: 5;
+    margin: 20px;
+    padding-bottom: 30px;
+    background: linear-gradient( rgba(128, 0, 128, 0.362) 20%,rgba(39, 39, 203, 0.844));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .sidebarI {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+  }
+  .desc
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(135, 12, 135);
+    text-shadow: 3px 3px 5px rgba(225, 208, 225, 0.768);
+   font-size: 5vh;
+   font-weight: 600;
+   animation-name: animate;
+   animation-duration: 20s;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+@keyframes animate
+{
+    0%{
+        color: rgb(155, 12, 119);
+         
+         transform: translate(-60px);
+         
+     }
+     25%{
+         color: rgb(9, 9, 152);
+         
+         transform: translate(60px);
+     }
+     50%{
+         
+         color: rgb(97, 18, 18);
+         
+         transform: translate(-60px);
+     }
+     75%{
+         color: rgba(4, 65, 77, 0.874);
+        
+         transform: translate(60px);
+     }
+     100%{
+         color: rgba(8, 120, 15, 0.721);
+         
+         transform: translate(-60px);
+     }
+    
+}
+#resume{
+    display: inline-block;
+   align-items: center;
+   position: absolute;
+   flex-direction: column;
+   margin-top: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    text-shadow: 0 0 0.3vw rgb(189, 77, 189);
+    background-color: pink;
+    border-radius: 5px;
+    border-color: palevioletred;
+    box-shadow: 2vw;
+   font-size: 4vh;
+   font-weight: 200;
+} 
+
+
+

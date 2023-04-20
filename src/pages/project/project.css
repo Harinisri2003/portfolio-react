@@ -1,0 +1,7 @@
+.home {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(rgb(232, 89, 232),rgb(66, 66, 220));
+  }

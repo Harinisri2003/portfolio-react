@@ -1,0 +1,92 @@
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background: linear-gradient( rgba(203, 6, 203, 0.489) 20%,rgba(0, 0, 255, 0.844));
+    /* background-color: rgba(128, 0, 128, 0.362); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    border-top: solid 1px #610638;
+    border-bottom: solid 1px #610638;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #1d0303;
+    font-weight: 600;
+ 
+  }
+  
+  .sidebarItem > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .vc{
+    background-color: pink;
+    border-radius: 10px;
+    /* width: 50px; */
+    border-top: 2px;
+    border-color: plum;
+  }
+  
+  .sidebarItem > p {
+    padding: 30px;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  .sidebarListItem {
+    display: inline-block;
+    width: 40%;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+    color: aliceblue;
+    
+  }
+  
+  .sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .aboutme{
+    top: 10px;
+  }
+  .des{
+    color: aliceblue;
+  }
+  .des::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    overflow: hidden;
+    color: aliceblue;
+  }

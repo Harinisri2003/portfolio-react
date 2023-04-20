@@ -1,0 +1,408 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.skillimg{
+    background-repeat: no-repeat;
+    background-clip: border-box;
+   width: 40vw;
+   height: 40vh;
+    opacity: 1;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+   background: linear-gradient(rgb(109, 109, 196),rgba(128, 0, 128, 0.362));
+   position: relative;
+   text-align: center;
+   /* margin-bottom: 30px; */
+    /* background-image: url(https://blog.back4app.com/wp-content/uploads/2021/05/Top-10-Front-End-Programming-Languages-1140x515.jpeg); */
+    /* opacity: 1; */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+.sk{
+    color: purple;
+   
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+    
+}
+.container .card{
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background-color:rgba(128, 0, 128, 0.362) ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container .card .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+    background-color: aquamarine;
+}
+.container .card .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;   
+}
+.container .card .percent svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: rgb(134, 7, 134);
+    stroke-width: 3;
+    transform: translate(5px,5px);
+}
+.container .card .percent svg circle:nth-child(1){
+stroke-dasharray: 400;
+stroke-dashoffset: 800;
+opacity: 0;
+animation: fadein 1s linear forwards;
+animation-delay: 0.5s;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#work{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* -webkit-transform: rotate(-270deg);  */
+    -moz-transform: rotate(-270deg);
+    margin-top: 220px;
+    font-size: large;
+}
+.num{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-transform: rotate(-270deg); 
+    -moz-transform: rotate(-270deg);
+}
+.num h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(138, 0, 184, 0.764);
+    font-weight: 700;
+    font-size: 2.5em;
+    opacity: 0;
+    animation: fadein 1s linear forwards;
+    animation-delay: 1s;
+}
+
+.container .card2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(128, 0, 128, 0.362) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card2 .percent{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     transform: rotate(270deg);
+     background-color: aquamarine;
+ }
+ .container .card2 .percent svg{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     
+ }
+ .container .card2 .percent svg circle{
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+     stroke: rgb(134, 7, 134);
+     stroke-width: 3;
+     transform: translate(5px,5px);
+ }
+ .container .card2 .percent svg circle:nth-child(1){
+ stroke-dasharray: 400;
+ stroke-dashoffset: 700;
+ opacity: 0;
+ animation: fadein 1s linear forwards;
+ animation-delay: 2s;
+ }
+ @keyframes fadein{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+ .container .card3{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(128, 0, 128, 0.362) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card3 .percent{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     transform: rotate(270deg);
+     background-color: aquamarine;
+ }
+ .container .card3 .percent svg{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     
+ }
+ .container .card3 .percent svg circle{
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+     stroke: rgb(134, 7, 134);
+     stroke-width: 3;
+     transform: translate(5px,5px);
+ }
+ .container .card3 .percent svg circle:nth-child(1){
+ stroke-dasharray: 300;
+ stroke-dashoffset: 640;
+ opacity: 0;
+ animation: fadein 1s linear forwards;
+ animation-delay: 2.5s;
+ }
+ @keyframes fadein{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+ .container .card4{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(128, 0, 128, 0.362) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card4 .percent{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     transform: rotate(270deg);
+     background-color: aquamarine;
+ }
+ .container .card4 .percent svg{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     
+ }
+ .container .card4 .percent svg circle{
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+     stroke: rgb(134, 7, 134);
+     stroke-width: 3;
+     transform: translate(5px,5px);
+ }
+ .container .card4 .percent svg circle:nth-child(1){
+ stroke-dasharray: 300;
+ stroke-dashoffset: 640;
+ opacity: 0;
+ animation: fadein 1s linear forwards;
+ animation-delay: 2.5s;
+ }
+ @keyframes fadein{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+ .container .card5{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(128, 0, 128, 0.362) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card5 .percent{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     transform: rotate(270deg);
+     background-color: aquamarine;
+ }
+ .container .card5 .percent svg{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     
+ }
+ .container .card5 .percent svg circle{
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+     stroke: rgb(134, 7, 134);
+     stroke-width: 3;
+     transform: translate(5px,5px);
+ }
+ .container .card5 .percent svg circle:nth-child(1){
+ stroke-dasharray: 300;
+ stroke-dashoffset: 590;
+ opacity: 0;
+ animation: fadein 1s linear forwards;
+ animation-delay: 2.5s;
+ }
+ @keyframes fadein{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+ .container .card6{
+    /* margin-top: 70px; */
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(128, 0, 128, 0.362) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card6 .percent{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     transform: rotate(270deg);
+     background-color: aquamarine;
+ }
+ .container .card6 .percent svg{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     
+ }
+ .container .card6 .percent svg circle{
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+     stroke: rgb(134, 7, 134);
+     stroke-width: 3;
+     transform: translate(5px,5px);
+ }
+ .container .card6 .percent svg circle:nth-child(1){
+ stroke-dasharray: 800;
+ stroke-dashoffset: 650;
+ opacity: 0;
+ animation: fadein 1s linear forwards;
+ animation-delay: 2.5s;
+ }
+ @keyframes fadein{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+ .container .card7{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(128, 0, 128, 0.362) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .card7 .percent{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     transform: rotate(270deg);
+     background-color: aquamarine;
+ }
+ .container .card7 .percent svg{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     
+ }
+ .container .card7 .percent svg circle{
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+     stroke: rgb(134, 7, 134);
+     stroke-width: 3;
+     transform: translate(5px,5px);
+ }
+ .container .card7 .percent svg circle:nth-child(1){
+ stroke-dasharray: 620;
+ stroke-dashoffset: 400;
+ opacity: 0;
+ animation: fadein 1s linear forwards;
+ animation-delay: 2.5s;
+ }
+ @keyframes fadein{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+ #html{
+    /* text-decoration: none; */
+    cursor: pointer;
+ }
+

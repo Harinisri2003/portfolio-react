@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#contact{
+    background-image: url(https://i.pinimg.com/originals/e5/01/d8/e501d8cc387ad6fdf7d32f711627f299.gif);
+    background-color: rgba(128, 0, 128, 0.362);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: pink;
+    margin: 20px 0;
+}
+
+#contact form input:last-child{
+    margin-top: 30px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.btn{
+    color: rgb(35, 11, 80);
+    fill: palevioletred;
+    background-color: pink;
+    width: 140px;
+    border-radius: 10%;
+    border-color: pink;
+    height: 50px;
+
+}
+.follow-me{
+    display: block;
+    margin-top: 10px;
+}
+.follow{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    ;
+}
+.follow img{
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.myinfo{
+    margin-top: 20px;
+}
+.connect img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+   margin-top: 20px;
+   
+}
